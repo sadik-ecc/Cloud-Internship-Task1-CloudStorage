@@ -1,5 +1,4 @@
 
-
 # ☁️ Task 1: Create a Cloud Storage Bucket and Upload Files
 
 ### 🎯 **Objective**
@@ -10,38 +9,44 @@ The goal of this task is to understand the basics of **cloud object storage** by
 
 ### 🧰 **Tools & Technologies Used**
 
-* **Cloud Platform:** AWS / Google Cloud
-* **Service:** S3 (for AWS) / Cloud Storage (for GCP)
+* **Cloud Platform:** AWS
+* **Service:** Amazon S3
 * **Browser:** Google Chrome
-* **Files Uploaded:** `sample.txt` and/or `sample.jpg`
+* **File Uploaded:** `WhatsApp Image 2025-08-27 at 15.01.57_b9c0d6bd.jpg`
 
 ---
 
 ### 🪣 **Steps Followed**
 
-1. **Created a Free Cloud Account**
+1. **Created a Free AWS Account**
 
-   * Signed up for a Free Tier account on AWS or Google Cloud.
+   * Signed up for AWS Free Tier and accessed the S3 service.
 
-2. **Created a Storage Bucket**
+2. **Created an S3 Bucket**
 
-   * Name: `sadik-storage-bucket-001`
-   * Region: `us-east-1`
-   * Kept default settings for permissions (private/public as required).
+   * **Bucket Name:** `portfolio-jaff`
+   * **Region:** `us-east-1`
+   * **Permissions:** Kept default (private/public as needed).
 
-3. **Uploaded File**
+3. **Uploaded File to Bucket**
 
-   * Uploaded a text/image file into the bucket.
+   * Uploaded: `WhatsApp Image 2025-08-27 at 15.01.57_b9c0d6bd.jpg`
+   * **S3 Object Path:**
 
-4. **Accessed File via URL**
+     ```
+     s3://portfolio-jaff/WhatsApp Image 2025-08-27 at 15.01.57_b9c0d6bd.jpg
+     ```
 
-   * Copied the object’s **s3://portfolio-jaff/WhatsApp Image 2025-08-27 at 15.01.57_b9c0d6bd.jpg** and opened it in a browser to test accessibility.
+4. **Checked File Access**
+
+   * Copied and tested the object URL in a web browser.
+   * Verified that the image was successfully stored and accessible (if made public).
 
 ---
 
 ### 📸 **Screenshot**
 
-*Uploaded proof of the file in the cloud storage bucket.*
+*Proof of successful upload in the S3 console.*
 
 > ![Cloud Bucket Screenshot](cloud_bucket_upload.png)
 
@@ -49,21 +54,21 @@ The goal of this task is to understand the basics of **cloud object storage** by
 
 ### 🧾 **Outcome**
 
-✅ Successfully created a cloud storage bucket.
-✅ Uploaded files to the bucket.
-✅ Accessed files through an object URL.
-✅ Understood how **object storage** organizes and provides access to data in the cloud.
+✅ Successfully created an **AWS S3 bucket** named `portfolio-jaff`.
+✅ Uploaded an image file to the bucket.
+✅ Verified object storage and accessibility in the cloud.
+✅ Learned the concept of **buckets**, **objects**, and **S3 URLs**.
 
 ---
 
 ### 📚 **Interview Preparation Questions (Day 1)**
 
-1. What is cloud object storage?
-2. Difference between block, file, and object storage.
-3. What is an S3 bucket / GCS bucket?
-4. How to make an object public in S3 or GCS?
-5. What is versioning in object storage?
-6. What are storage classes in AWS S3?
+1. What is object storage in AWS?
+2. What are S3 buckets and objects?
+3. What is the difference between public and private buckets?
+4. How to access a file via its S3 URL?
+5. What are S3 storage classes (Standard, Glacier, etc.)?
+6. What is versioning in S3?
 7. What’s the difference between AWS S3 and Google Cloud Storage?
 
 ---
@@ -74,3 +79,4 @@ The goal of this task is to understand the basics of **cloud object storage** by
 **Internship:** Cloud Computing Virtual Internship
 **Task:** Day 1 – Cloud Storage Bucket
 
+---
