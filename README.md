@@ -35,7 +35,7 @@ The goal of this task is to understand the basics of **cloud object storage** by
 
 4. **Accessed File via URL**
 
-   * Copied the object’s **public URL** and opened it in a browser to test accessibility.
+   * Copied the object’s **s3://portfolio-jaff/WhatsApp Image 2025-08-27 at 15.01.57_b9c0d6bd.jpg** and opened it in a browser to test accessibility.
 
 ---
 
